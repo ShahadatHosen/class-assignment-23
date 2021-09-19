@@ -1,0 +1,145 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+img{
+    max-width: 100%;
+}
+
+
+.heddersection{
+    background-color: black;
+}
+
+
+.container{
+    width: 1200px;
+    margin: auto;
+
+}
+
+.mainhedder{
+    display: flex;
+    
+
+}
+
+.hedderlogo{
+  
+    width: 8%;
+}
+
+.hedderlogo img{
+
+} 
+
+
+.heddermenu{
+  
+
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.heddermenu ul{
+    list-style: none;
+   
+   
+
+    display: flex;
+    justify-content: flex-end;
+}
+.heddermenu ul li{
+  
+
+
+    padding: 18px 18px; 
+}
+.heddermenu ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+  
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+}
+
+
+/* side bar section */
+
+.sidebarsection{
+    display: flex;
+    padding-top: 80px;
+
+    align-items: center;
+}
+
+.sidebarleft{
+    flex-basis: 70%;
+
+}
+
+.siderightbar{
+    flex-basis: 30%;
+    background-color: #d2d2d2;
+    border-left: 1px solid red;
+
+
+}
+
+.rightcontact{
+
+    padding: 20px;
+}
+
+.rightcontact h2{
+
+    padding: 10px;
+    font-size: 22px;
+} 
+
+.rightcontact img{
+
+}
+
+.rightcontact p{
+
+    line-height: 23px;
+}
+
+
+/* RIGHT SECTION */
+
+.sidebarleft{
+
+}
+
+
+.leftcontant{
+
+}
+
+.leftitam{
+    display: flex;
+    flex: 1;
+
+    margin: 0px 20px;
+}
+
+.leftcont{
+
+    border: 2px solid green;
+  
+    padding: 20px;
+    margin: 0px 20px;
+    align-items: center;
+}
+ 
+.leftcont H5{
+    
+    background: red;
+    display: inline-block;
+    padding: 20px;
+    color: white;
+}
